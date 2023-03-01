@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="content grid">
+        <div class="top flex">
+            <div class="card right grid">
+                <h1 class="top--title">NPS geral</h1>
+                <div class="top--chart">
+                    <img src="assets/icon.svg" alt="happy emoji">
+                    <h1 class="top--secondary">Excelente!</h1>
+                </div>
+                <div class="top--info">
+                    <p>NPS Score 75</p>
+                </div>
+            </div>
+            <div class="card middle">
+                <h1 class="top--title">Vendas fechadas</h1>
+                <div class="top--chart">
+                    
+                </div>
+                <div class="top--info"></div>
+
+            </div>
+            <div class="card left">
+                <h1 class="top--title">Meta mensal</h1>
+                <div class="top--chart"></div>
+                <div class="top--info"></div>
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="card week">
+                <div class="bottom--infos">
+                    <h1 class="bottom--title">Vendas por dia da semana</h1>
+                </div>
+                <div class="bottom-chart"></div>
+                
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
